@@ -1,6 +1,10 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
+
+#te1 represents the loaded users on the server, and te2 represents the leaves from the server,
+#in the form of 2 element lists, the first element representing the time it passed since
+#the start of the game until the leave/load, and the second element is the flag for leave/load, 1 for load, 0 for leave.
 te1=[[0.4,1],[1.6,1],[2.1,1], [2.8,1], [3,1], [3.6,1], [3.8,1],[5.2,1]]
 te2=[[2.4,0],[3.1,0],[3.3,0],[4.4,0],[8.1,0],[8.7,0],[8.9,0],[9.4,0]]
 
